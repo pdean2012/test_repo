@@ -49,3 +49,4 @@ with open(wrestling_csv, 'r') as csvfile:
         # If the wrestler's name in a row is equal to that which the user input, run the 'print_percentages()' function
         if(name_to_check == row[0]):
             print_percentages(row)
+##
